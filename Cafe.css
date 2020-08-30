@@ -1,9 +1,13 @@
 ul{
     background-color: black;
+    height: 100px;
 }
 
 li {
     display: inline;
+    padding: 50px;
+    border-left-width: 100px;
+    position: relative;
 }
 
 li a {
@@ -12,3 +16,12 @@ li a {
     color: white;
 }
 
+section main button {
+overflow: hidden;
+display: inline-table;
+padding: 14p 16px;
+}
+main article footer p{
+    background-color: black;
+    color: white;
+}
