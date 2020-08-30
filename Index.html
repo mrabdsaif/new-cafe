@@ -18,25 +18,39 @@
             <li><a href="google.com">WHERE</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>The cafe</h1>
-        <img src="https://www.w3schools.com/w3images/coffeehouse.jpg" alt="">
+    <img id="img1" src="https://www.w3schools.com/w3images/coffeehouse.jpg" alt="">
+    <header id="header1">
+        The
+        <br>
+        cafe
     </header>
+    <header id="header2">Open from 6am to 5pm</header>
+    <header id="header3">15 Adr street, 5015</header>
     <main>
         <section>
-            <h2>About The Cafe </h2>
-            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+            <br>
+            <br>
+            <br>
+            <div id="aboutDiv">
+                <h4>About The Cafe </h4>
+            </div>
+            <br>
+            <br>
+                 <p id="p1About">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <hr>
-            <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-
-                order breakfast and lunch sandwiches, as well as a selection of sides and
-                salads and other good stuff.</p>
-            <hr>
-            <p>"Use products from nature for what it's worth - but never too early,
-                nor too late." Fresh is the new sweet.</p>.
-            <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br>
+                <br>
+               In addition to our full espresso and brew bar menu, we serve fresh made-to-
+                    order breakfast and lunch sandwiches, as well as a selection of sides and
+                    salads and other good stuff.</p>
+                
+                <p id="p2About">"Use products from nature for what it's worth - but never too early,
+                    nor too late." Fresh is the new sweet.</p>.
+                <p>Chef, Coffeeist and Owner: Liam Brown</p>
+            </div>
+            
 
             <img src="https://www.w3schools.com/w3images/coffeeshop.jpg" alt="">
             <p>Opening hours: everyday from 6am to 5pm.</p>
@@ -44,7 +58,14 @@
         </section>
 
         <section>
-            <h2>The Menu</h2>
+            <br>
+            <br>
+            <div id="menuDiv">
+                <h4>The Menu</h4>
+            </div>
+
+            <br>
+            <br>
             <main>
                 <button class="tablinks" onclick="openTabEat(event,'Eat')">Eat</button>
                 <h3>Bread Basket</h3>
@@ -57,7 +78,7 @@
                 <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
                 <h3>Blueberry Pancakes</h3>
                 <p>With syrup, butter and lots of berries 8.50</p>
-                <button>Drinks</button>
+                <button class="tablinks" onclick="openTabDrinks (event,'Drinks')">Drinks</button>
                 <h3>Coffee</h3>
                 <p>Regular coffee 2.50</p>
                 <h3>Chocolato</h3>
@@ -72,18 +93,28 @@
             <img src='https://www.w3schools.com/w3images/coffeehouse2.jpg' alt="">
         </section>
         <article>
-            <h2>Where To Find Us</h2>
+            <br>
+            <br>
+            <div id="whereToFindus">
+                <h4>Where To Find Us</h4>
+            </div>
+
+
+            <br>
+            <br>
             <p>Find us at some address at some place.</p>
             <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
             <br>
-            <p>FYI!</p> <span>We offer full-service catering for any event, large or small. 
-                           We understand your needs and we will cater the food to satisfy 
-                           the biggerst criteria of them all, both look and taste.</span>
-                           <br>
-                           <p>Reserve a table, ask for today's special or just send us a message:</p>
-                           <footer>
-                               <p>SEND MESSAGE</p>
-                            </footer>
+            <div id="fY">
+                <span>FYI!</span> <span>We offer full-service catering for any event, large or small.
+                    We understand your needs and we will cater the food to satisfy
+                    the biggerst criteria of them all, both look and taste.</span>
+            </div>
+
+            <p>Reserve a table, ask for today's special or just send us a message:</p>
+            <button>
+                <p>SEND MESSAGE</p>
+            </button>
         </article>
     </main>
 </body>
