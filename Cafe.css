@@ -28,18 +28,13 @@ li a {
 #button2{
     font-family: 'Courier New', Courier, monospace;
 }
-main article button p{
-    background-color: black;
-    color: white;
-    margin-left: 5px;
-    padding: black;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 h4{
     color: white;
     background-color: black;
     display: inline-block;
     letter-spacing: 5px;
+    font-size: 20px;
 }
 #wrap-P-About{
     
@@ -183,14 +178,25 @@ footer{
 }
 .input{
     width: 40%;
-    padding: 20px;
+    padding: 15px;
     font-family: Consolas;
-    font-size: 90%;
+    font-size: 100%;
 }
 #input1{
     background-color: black;
     color: white;
     padding: 5px;
     font-family: Consolas;
-    font-size: 90%;
+    font-size: 100%;
+    cursor: pointer;
+    padding: 8px 16px;
+    appearance: button;
+   
+}
+#pForm{
+    text-align: center;
+}
+#form1{
+    display: list-item;
+    text-align: center;
 }
