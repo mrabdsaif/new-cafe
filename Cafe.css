@@ -23,21 +23,10 @@ li a {
 }
 
 #button1 {
-    display: flex;
-    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
 }
 #button2{
-    display: flex;
-    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
-}
-.tabEat{
-    display: flexbox;
-    text-align: center;
-}
-.tabDrinks{
-    display: flexbox;
 }
 main article button p{
     background-color: black;
@@ -165,33 +154,18 @@ h4{
 }
 #fY{
     
-    color: white;
-    background-color: black;
-    font-family: "Lucida Console", Courier, monospace;
-    
-    font-size: 18px;
-    font-weight: normal;
-    color: rgb(70, 68, 68);
-    display: flex;
-    margin-left: 385px;
-    flex-direction: row;
-    
-    width: 1cm;
-}
-#fY2{
-    
-    font-family: "Lucida Console", Courier, monospace;
-    line-height: 1.5;
-    font-size: 18px;
-    font-weight: normal;
-    color: rgb(70, 68, 68);
-    display: flex;
     text-align: left;
-    flex-direction: column;
-    margin-left: 435px;
-    margin-top: -20px;
-    width: 20cm;
+    align-items: center;
+    margin-left: 25%;
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: Consolas;
+    color: rgb(68, 66, 66);
+    width: 50%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
+
 footer{
     text-align: center;
     color: black;
