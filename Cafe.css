@@ -192,3 +192,31 @@ h4{
     margin-top: -20px;
     width: 20cm;
 }
+footer{
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 18px;
+    margin: 50px;
+}
+.footer2{
+    
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 18px;
+    
+}
+.input{
+    width: 40%;
+    padding: 20px;
+    font-family: Consolas;
+    font-size: 90%;
+}
+#input1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: Consolas;
+    font-size: 90%;
+}
