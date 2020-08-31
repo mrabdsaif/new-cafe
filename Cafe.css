@@ -200,3 +200,8 @@ footer{
     display: list-item;
     text-align: center;
 }
+#sendM{
+    display: flex;
+    flex-direction: row;
+    margin-left: 432px;
+}
